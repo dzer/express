@@ -18,7 +18,7 @@
  * @link      http://dzer.me
  */
 
-namespace dzer\Express;
+namespace dzer\express;
 
 class Express
 {
