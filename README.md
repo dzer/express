@@ -1,15 +1,16 @@
 # 快递单号查询
 
+
 ## 安装
 
 环境要求：PHP >= 5.3.0
 
 1. 使用 [composer](https://getcomposer.org/)
 
-  ```shell
-  composer require dzer/express
-  ```
-
+```shell
+composer require dzer/express	
+```
+[yii2扩展 dzer/yii2-express](https://github.com/dzer/yii2-express)
 ## 使用
 
 基本使用:
