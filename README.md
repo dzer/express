@@ -17,7 +17,7 @@
 ```php
 <?php
 
-use dzer\Express;
+use dzer\express\Express;
 
 //Express::search('快递公司代码','快递单号','返回格式');
 $rs = Express::search('yuantong', '807209844896', 'json');
