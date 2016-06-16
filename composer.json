@@ -1,6 +1,7 @@
 {
     "name": "dzer/express",
     "description": "快递单号查询,支持国内近100家快递单号查询。",
+    "type": "library",
   	"keywords": [
         "快递",
         "快递查询",
