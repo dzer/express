@@ -147,9 +147,9 @@ class Express
                 'postid' => trim($number)
             );
             //拼接url
-            self::$url = self::$url . http_build_query($data);
+            $url = self::$url . http_build_query($data);
             //请求接口
-            $result = self::httpGet(self::$url);
+            $result = self::httpGet($url);
             if (empty($result)) {
                 $result = json_encode(array('status' => 400, 'message' => '请求错误'));
             }
@@ -210,5 +210,3 @@ class Express
         }
     }
 }
-
-echo(Express::search('807209844896'));
